@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'BV IT-SERVICES CLOUD & SECURITY DIGITAL SCRAPBOOK';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Practically & Tested;
+    : 'Practically & Tested';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
